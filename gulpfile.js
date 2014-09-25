@@ -13,7 +13,7 @@ var paths = {
 
 gulp.task('test', function () {
   gulp.src(paths.scripts)
-    .pipe(jshint())
+    .pipe(jshint(fttttrtryrgfg))
     .pipe(jshint.reporter('jshint-stylish'));
   
   gulp.src(paths.tests)
